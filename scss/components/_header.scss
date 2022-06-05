@@ -1,0 +1,10 @@
+.header {
+  border-bottom: 1px solid #ececec;
+  & > .container {
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--footer-text);
+  }
+}

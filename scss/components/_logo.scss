@@ -1,0 +1,19 @@
+.logo {
+  text-decoration: none;
+  color: var(--secondary-link-color);
+  font-family: raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  &--backdown {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+  &__studio-header {
+    color: #000000;
+  }
+  &__studio-footer {
+    color: var(--footer-text);
+  }
+}
