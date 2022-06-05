@@ -305,6 +305,13 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 10px;
   letter-spacing: 0.06em;
   cursor: pointer;
 }
@@ -380,6 +387,12 @@ body {
   opacity: 0.8;
   -webkit-transform: translate(-50%, -50%) scale(0.8);
           transform: translate(-50%, -50%) scale(0.8);
+}
+
+.modal__icon {
+  fill: currentColor;
+  width: 18px;
+  height: 18px;
 }
 
 .modal__title {
@@ -994,6 +1007,7 @@ body {
   width: 358px;
   height: 50px;
   background-color: #2f303a;
+  color: var(--footer-text);
   outline: transparent;
   border: none;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -1025,6 +1039,10 @@ body {
 }
 
 .footer-mail__icon-send {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-position: center;
   margin-left: 10px;
   width: 24px;
   height: 24px;
@@ -1100,6 +1118,7 @@ body {
 }
 
 .project-list__img {
+  display: block;
   max-width: 100%;
   height: auto;
   background-color: var(--color-title);

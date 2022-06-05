@@ -30,7 +30,11 @@
     transform: translate(-50%, -50%) scale(0.8);
   }
 }
-
+.modal__icon {
+  fill: currentColor;
+  width: 18px;
+  height: 18px;
+}
 .modal__title {
   display: inline-block;
   margin: 0 auto;
